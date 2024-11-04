@@ -29,6 +29,10 @@ dependencies {
 
     // PostgreSQL Driver
     runtimeOnly 'org.postgresql:postgresql'
+
+	// OpenAPI (Swagger) https://github.com/springdoc/springdoc-openapi
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0'
+
 	
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
